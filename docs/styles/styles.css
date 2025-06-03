@@ -295,3 +295,8 @@ label {
 .izquierda1-ul li:hover{
     color: #FFFF00;
 }
+
+.nav li:hover{
+    color:  #FFFF00;
+    cursor: pointer;
+}
