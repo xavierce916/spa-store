@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Romanesco&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background-color: #A3A656;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+nav {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+.opciones-cuenta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.opciones-cuenta > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+}
+.img-main {
+  position: relative;
+  width: 100%;
+}
+.img-main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.titulo-slogan {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    color: black;
+}
+
+.titulo-slogan h1 {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.titulo-slogan h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.3;
+    margin-top: 16px;
+}
+.menu {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.place-holder::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+    padding-left: 10px;
+    align-items: center;
+}
+.titulo-1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+.titulo-2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.miniatura{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.reserva{
+    height: 100px;
+    background-color: #F2F6F6;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.reserva input {
+    border-radius: 10px;
+    border: 0;
+    height: 70px;
+}
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cita {
+    width: 250px;
+}
+.border-radius{
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+}
+.border-radius-boton{
+    border-radius: 35px;
+    background-color: #A3A656;
+}
+.servicios {
+  display: flex;
+  justify-content: center;
+  gap: 134px;
+  margin: 100px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.encabezado-servicio {
+  background-color: #A3A656;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-servicio img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.descripcion {
+  padding: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.opciones-compra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 20px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.boton-reservar {
+  background-color: #A3A656;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.boton-reservar:hover {
+  background-color: #384001;
+}
